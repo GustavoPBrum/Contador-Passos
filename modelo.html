@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Contagem de Passos</h1>
+    </header>
+
+    <section>
+        <div>
+            <p>Início:
+                <input type="number" name="começo" id="inicio">
+            </p>
+            <p>Fim:
+                <input type="number" name="final" id="final">
+            </p>
+            <p>Passos:
+                <input type="number" name="conta" id="passos">
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="contar()">
+            </p>
+        </div>
+
+        <div id="resultado">
+            Preparando a contagem...
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Gustavo Brum</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
